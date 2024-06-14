@@ -6,6 +6,7 @@ const Example = () => {
     <View>
         <Text>Yuva</Text>
         <Text>Rani</Text>
+        <Text>Yuva</Text>
     </View>
   )
 }

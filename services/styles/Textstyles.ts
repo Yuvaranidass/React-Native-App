@@ -41,6 +41,15 @@ const Textstyles = StyleSheet.create({
         width:340,
         marginTop:20,
         borderRadius:20,
+    },
+    searchbar_style:{
+        width:400,
+        
+    },
+    OrderText:{
+        fontSize:20,
+        color:"#043BFF",
+        marginTop:20
     }
 });
 export default Textstyles;

@@ -1,19 +1,12 @@
-import React from 'react'
-import { View } from 'react-native'
-import Example from './src/pages/Example'
-import AppFrontpage from './src/pages/AppFrontpage'
-import LoginPage from './src/pages/LoginPage'
-import Ordersreen from './src/pages/Ordersreen'
-import SellYourVehicle from './src/pages/SellYourVehicle'
-import MyProfile from './src/pages/MyProfile'
+import 'react-native-gesture-handler'; // Ensure this is at the top of the file
+import * as React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import BottomNavigation from './src/Routing/BottomNavigation';
 
-const App = () => {
+export default function App() {
   return (
-   <View>
-   <MyProfile/>
-   </View>
-  )
+    <NavigationContainer>
+      <BottomNavigation />
+    </NavigationContainer>
+  );
 }
-
-export default App
-
